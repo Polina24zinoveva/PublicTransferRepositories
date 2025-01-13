@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: PublicTransferRepositories
+
+localRepositoriesPath: your_local_repositories_path(example:C:/Users/user/Desktop/PublicTransferRepositories/localRepositories/)
+
+gitlab:
+  token: your_gitlab_access_token
+  url: https://gitlab.com/api/v4
+  urlUser: your_gitlab_urlUser(example:https://gitlab.com/user1/)
+  idUser: your_gitlab_idUser(example:11111111)
+
+github:
+  token: your_github_access_token
+  url: https://api.github.com
+  urlUser: your_github_urlUser(example:https://github.com/user1/)
+  userName: your_github_userName(example:user1)
+
+logging:
+  level:
+    org.apache.http: DEBUG
+
+
